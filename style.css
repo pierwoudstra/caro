@@ -1,0 +1,192 @@
+/* general */
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* green background: */
+    background: rgb(216,255,211);
+    background: linear-gradient(90deg, rgb(211, 255, 233) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgb(211, 255, 233) 100%);
+
+    /* background: rgb(255,211,211);
+    background: linear-gradient(90deg, rgb(255, 211, 211) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(255,211,211) 100%); */
+
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Arapey', serif;
+    color:#444444;
+    font-size: 3vmin;
+    text-decoration: none;
+    text-align: justify;
+}
+
+a {
+    font-family: 'Arapey', serif;
+    color:#444444;
+    font-size: 3vmin;
+    text-decoration: none; 
+    padding: 0.8rem;
+}
+
+a:hover {
+    /* color: indianred; */
+    color:cadetblue;
+    /* font-style: italic; */
+    /* font-size: 3.3vmin; */
+}
+
+html {
+    scroll-behavior:auto;
+}
+
+/* TRANSITION */
+
+a, .btn {
+    transition: all 100ms ease-out;
+}
+
+/* nav bar left */
+
+.vertical-menu {
+    width: 100%; /* Set a width if you like */
+}
+  
+.vertical-menu a {
+    display: block; /* Make the links appear below each other */
+}
+
+/* footer */
+
+.footer {
+    align-content: center;
+    height: 3vh;
+    padding: 2rem;
+    margin: auto;
+    float: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+/*  SECTION */
+
+.columns-home {
+    display: grid;
+
+    padding-top: 1vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    height: 99vh;
+
+    grid-template-columns: 30% 40% 30%;
+}
+
+.column-1 {
+    min-width: 0%; 
+    width: 100%;
+    vertical-align: bottom;
+    text-align: left;
+    float: none;
+    padding-left: 1rem;
+}
+
+.column-1 p {
+    padding: 0.8rem;
+}
+
+.column-2 {
+    padding-top: 2rem;
+
+    /* border-left-style: solid;
+    border-right-style: solid;
+    border-color: indianred;
+    border-width: 2px; */
+}
+
+.column-2 img {
+    min-width: 0%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    padding-bottom: 2rem;
+}
+
+.column-2 p {
+    color: black;
+    font-size: 2.2vmin;
+}
+
+.column-2 a {
+    padding:0%;
+    font-size: 2.2vmin;
+}
+
+.column-2 a:hover {
+    font-size: 2.2vmin;
+}
+
+.column-3 {
+    padding-top:0.8rem;
+    text-align: right;
+    vertical-align: bottom;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 950px) {
+
+    .columns-home {
+        display: grid;
+    
+        padding-top: 1vh;
+        padding-left: 0vw;
+        padding-right: 0vw;
+        height: 99vh;
+    
+        grid-template-columns: 15% 70% 15%;
+    }
+
+    p {
+        font-family: 'Arapey', serif;
+        color:#444444;
+        font-size: 2.5vmin;
+        text-decoration: none;
+        text-align: justify;
+    }
+    
+    a {
+        font-family: 'Arapey', serif;
+        color:#444444;
+        font-size: 2.5vmin;
+        text-decoration: none; 
+        padding: 0.8rem;
+    }
+
+    a:hover {
+        /* font-style: italic; */
+        /* font-size: 3vmin; */
+    }
+
+    .column-1 {
+        min-width: 0%; 
+        width: 100%;
+        vertical-align: bottom;
+        text-align: left;
+        float: none;
+        padding-left:0%;
+    }
+
+    .column-3 {
+        padding-top:0.8rem;
+        text-align: right;
+        vertical-align: bottom;
+        padding-bottom: 2rem;
+        padding-right: 0%;
+    }
+}
