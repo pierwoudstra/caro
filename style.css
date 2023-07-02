@@ -184,16 +184,16 @@ a, .btn {
 
     .column-2 p {
         color: black;
-        font-size: 4vmin;
+        font-size: 5.5vmin;
     }
     
     .column-2 a {
         padding:0%;
-        font-size: 4vmin;
+        font-size: 5.5vmin;
     }
     
     .column-2 a:hover {
-        font-size: 4vmin;
+        font-size: 5.5vmin;
     }
 
     .column-3 {
