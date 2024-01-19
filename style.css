@@ -168,6 +168,12 @@ a, .btn {
         grid-template-columns: 15% 70% 15%;
     }
 
+    .mini-column {
+        display: grid;
+
+        grid-template-columns: 100%;
+    }
+
     p {
         font-family: 'Arapey', serif;
         color:#444444;
