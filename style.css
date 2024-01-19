@@ -90,6 +90,14 @@ a, .btn {
     grid-template-columns: 50% 50%;
 }
 
+.mini-left {
+    padding: 1vw;
+}
+
+.mini-right {
+    padding: 1vw;
+}
+
 .mini-column2 {
     display: grid;
     grid-template-columns: 33% 33% 33%;
