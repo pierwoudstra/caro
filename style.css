@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
 
+@font-face {
+    font-family: "CirrusCumulus";
+    src: url(assets/CirrusCumulus.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +22,8 @@ body {
 }
 
 p {
-    font-family: 'Arapey', serif;
+    /* font-family: 'Arapey', serif; */
+    font-family: "CirrusCumulus";
     color:#444444;
     font-size: 3vmin;
     text-decoration: none;
@@ -25,7 +31,8 @@ p {
 }
 
 a {
-    font-family: 'Arapey', serif;
+    /* font-family: 'Arapey', serif; */
+    font-family: "CirrusCumulus";
     color:#444444;
     font-size: 3vmin;
     text-decoration: none; 
@@ -175,7 +182,7 @@ a, .btn {
     }
 
     p {
-        font-family: 'Arapey', serif;
+        font-family: "CirrusCumulus";
         color:#444444;
         font-size: 2.5vmin;
         text-decoration: none;
@@ -183,7 +190,7 @@ a, .btn {
     }
     
     a {
-        font-family: 'Arapey', serif;
+        font-family: "CirrusCumulus";
         color:#444444;
         font-size: 2.5vmin;
         text-decoration: none; 
