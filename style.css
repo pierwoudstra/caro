@@ -97,6 +97,68 @@ a, .btn {
     grid-template-columns: 50% 50%;
 }
 
+.mini-column.slideshow,
+.mini-column2.slideshow,
+.slideshow-gallery.slideshow {
+    display: block;
+}
+
+.slideshow-viewport {
+    height: 75vh;
+}
+
+.slideshow-image {
+    display: none;
+}
+
+.slideshow-image.is-active {
+    display: block;
+    height: 100%;
+}
+
+.mini-column.slideshow .slideshow-image img,
+.mini-column2.slideshow .slideshow-image img,
+.slideshow-gallery.slideshow .slideshow-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding-bottom: 0;
+}
+
+.slideshow-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 0.75rem;
+}
+
+.slideshow-controls button {
+    border: 0;
+    background: none;
+    color: #444444;
+    cursor: pointer;
+    font: inherit;
+    font-family: "CirrusCumulus";
+    font-size: 2.2vmin;
+}
+
+.slideshow-controls button:hover {
+    color: cadetblue;
+}
+
+.slideshow-controls button:focus-visible {
+    outline: 2px solid cadetblue;
+    outline-offset: 3px;
+}
+
+.slideshow-count {
+    color: #444444;
+    font-family: "CirrusCumulus";
+    font-size: 2.2vmin;
+}
+
 .mini-left {
     padding: 1vw;
 }
@@ -179,6 +241,17 @@ a, .btn {
         display: grid;
 
         grid-template-columns: 100%;
+    }
+
+    .mini-column.slideshow,
+    .mini-column2.slideshow,
+    .slideshow-gallery.slideshow {
+        display: block;
+    }
+
+    .slideshow-controls button,
+    .slideshow-count {
+        font-size: 5.5vmin;
     }
 
     p {
